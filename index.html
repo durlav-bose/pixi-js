@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixiJS App</title>
+    <style>
+        .slider-container {
+            position: absolute;
+            top: 40px;
+            left: 10px;
+        }
+        .slider {
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slider-container">
+        <label for="opacity-slider">Opacity:</label>
+        <input type="range" id="opacity-slider" class="slider" min="0" max="1" step="0.01" value="1">
+    </div>
+    <script type="module" src="./src/main.js"></script>
+</body>
+</html>
